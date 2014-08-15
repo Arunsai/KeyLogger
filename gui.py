@@ -23,7 +23,7 @@ class DisplayKeyLogs:
 		window.set_title("Key Logger GUI")
 		window.set_border_width(0)
 
-
+ 
 		box1 = gtk.VBox(False, 0)
 		window.add(box1)
 		box1.show()

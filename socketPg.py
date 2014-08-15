@@ -6,7 +6,7 @@ import socket
 class RECEIVER:
 
 	def __init__(self):        #.............................................constructor for the class RECEIVER
-		tcpsocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+		tcpsocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM) 
 		#tcpsocket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
 		tcpsocket.bind(("0.0.0.0",8000))
 		tcpsocket.listen(3)
