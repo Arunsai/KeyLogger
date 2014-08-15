@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-
+#This program is intended to retrieve the data from a local file and display the contents on the GUI. This program asks for the filename to be displayed and if the requested file exists, it displays the file on a window.
+#This program presents a simple GUI for the client to request a file and read the contents of the file. 
 import pygtk
 pygtk.require('2.0')
 import gtk
